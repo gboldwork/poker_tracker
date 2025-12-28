@@ -1,0 +1,29 @@
+# Poker Tracker
+
+A desktop application for tracking poker games and analyzing player behavior.
+
+## Project Goals
+
+1. **Capture** - Take screenshots of poker table windows
+2. **Extract** - Use OCR to read player names, cards, bet sizes
+3. **Store** - Save all data to a local SQLite database
+4. **Analyze** - Calculate statistics and classify player types using AI
+5. **Display** - Show a HUD overlay with real-time stats
+
+## Tech Stack
+
+- **Rust** - Core application (fast, safe)
+- **Python** - AI/ML components (OCR, classification, LLM)
+- **SQLite** - Local database
+- **egui** - User interface
+
+## Current Status
+
+🚧 **Phase 1: Project Setup** - Just getting started!
+
+## Building
+
+```bash
+cargo build
+cargo run
+```
